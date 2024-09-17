@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buku Tamu</title>
+  <link rel="stylesheet" href="PrakDW2.css">
+</head>
+<body>
+  <header>
+    <h1>Buku Tamu</h1>
+  </header>
+
+  <main class="container">
+    <!-- Formulir Isi Buku Tamu -->
+    <section class="form-section">
+      <h2>Isi Buku Tamu</h2>
+      <form action="#" method="POST" class = "flex-form">
+        <div class="form group">
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name" placeholder="Nama Anda" required>
+        </div>
+
+        <div class="form group">    
+        <label for="faculty">Fakultas:</label>
+        <input type="text" id="faculty" name="faculty" placeholder="Fakultas Anda" required>
+        </div>
+
+        <div class="form group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Email Anda" required>
+        </div>  
+
+        <div class="form group">
+        <label for="telephone">No Telephone:</label>
+        <input type="text" id="telephone" name="telephone" placeholder="No Telephone Anda" required>
+        </div>  
+
+        <label for="message">Pesan:</label>
+        <textarea id="message" name="message" placeholder="Tulis pesan Anda di sini" required></textarea>
+
+        <button type="submit">Kirim</button>
+      </form>
+    </section>
+
+    <!-- Daftar Buku Tamu -->
+    <section class="guest-list">
+      <h2>Daftar Buku Tamu</h2>
+      <ul>
+        <li><strong>Zidan Ferdian</strong> (zidanferdian32@gmail.com): Pesan singkat dari Zidan.</li>
+        <li><strong>Raziy Ibrahim</strong> (raziy@gmail.com): Pesan singkat dari Raziy.</li>
+        <li><strong>Samudra</strong> (samudra@gmail.com): Pesan singkat dari Samudra.</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
+
